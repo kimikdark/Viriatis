@@ -1,0 +1,190 @@
+html 
+{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after 
+{
+    box-sizing: inherit;
+}
+
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.topnav 
+{
+    background-color: #333;
+    overflow: hidden;
+    position: static;
+    width: 100%;
+    padding: 10px, 20px;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; /* Espaça o logo e a navegação */
+}
+
+header 
+{
+    position: fixed; /* Fixa a navbar no topo */
+    top: 0; /* Garante que ela comece no topo */
+    left: 0; /* Garante que ela comece na esquerda */
+    width: 100%; /* Ocupa toda a largura da tela */
+    z-index: 1000; 
+    background-color: white;
+}
+
+.topnav h1 a 
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0; /* Ajusta o padding vertical */
+    text-decoration: none;
+    font-size: 1.7em; /* Aumenta um pouco o tamanho da fonte do logo */
+    margin-right: 20px; /* Espaço entre o logo e a imagem/links */
+}
+
+.topnav img 
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.links-navegacao {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os links horizontalmente */
+}
+
+.links-navegacao li a 
+{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.links-navegacao li a::after 
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #7c2a1e, #c28840);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.links-navegacao li a:hover::after 
+{
+    transform: scaleX(1);
+}
+
+main 
+{
+    width: 80%;
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+/* Estilos do Botão Principal */
+.botao-principal 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #7c2a1e, #a0522d, #c28840);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-principal:hover 
+{
+    filter: brightness(1.5);
+    text-decoration: none;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0.5rem; /* 8px */
+    line-height: 1.2;
+}
+
+h2, h3, h4
+{
+    font-family: serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0.5rem; /* 8px */
+    line-height: 1.2;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+img 
+{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+button 
+{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+section 
+{
+    padding: 2rem 1rem; /* Aumenta um pouco o padding vertical */
+    text-align: center;
+}
+
+section h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+footer
+{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 2
+}
