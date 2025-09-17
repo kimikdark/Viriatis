@@ -2,6 +2,16 @@
 
 Este repositório contém o código-fonte do website da Viriátis, uma marca de vestuário e produtos de cariz identitário. O projeto foi desenvolvido como uma demonstração de competências em desenvolvimento web frontend, utilizando as tecnologias de base da web.
 
+## Tópicos
+
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Website**
+* **E-commerce**
+* **Gestão de Produtos**
+* **Frontend**
+
 ## Tecnologias Utilizadas
 
 * **HTML5**: Estrutura e semântica da página.
@@ -16,7 +26,7 @@ Este repositório contém o código-fonte do website da Viriátis, uma marca de 
 
 ## Estrutura do Projeto
 
-* `/`
+*
     * `index.html`: Página principal
     * `contactos.html`: Página de contactos
     * `produtos.html`: Página da loja
@@ -31,5 +41,5 @@ Este repositório contém o código-fonte do website da Viriátis, uma marca de 
 2.  Navega para a pasta do projeto.
     `cd viriatis-website`
 3.  Abre os ficheiros `index.html`, `contactos.html` ou `produtos.html` no teu navegador de eleição.
-  
-4.  Nota: é possivel navegar por todas as páginas através da NabBar prinicipal.
+
+4. *Nota* É possivel navegar a partir de qualquer uma das páginas .html, a partir da NabBar.
